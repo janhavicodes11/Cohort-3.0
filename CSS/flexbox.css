@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+ perspective: 300px;
+}
+
+#box{
+    height:200px;
+    width:200px;
+    background-color: royalblue;
+    /*position:absolute;*/
+   /* left:20px;*/
+    transform: rotateY(50deg);
+    color:white;
+    font-size: 70px;
+    margin:20px;
+    padding-left:20px;
+
+}
+
+
+
