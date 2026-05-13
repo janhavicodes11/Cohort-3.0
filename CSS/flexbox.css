@@ -118,5 +118,19 @@ body {
 
 
 
+#nav{
+    background-color: aliceblue;
+    height:80px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    
+}
+.try{
+    color:red;
+}
+
+
 
 
