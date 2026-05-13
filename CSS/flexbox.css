@@ -10,7 +10,7 @@ body {
     width: 100%;
 }
 
-body{
+/*body{
  perspective: 300px;
 }
 
@@ -20,13 +20,103 @@ body{
     background-color: royalblue;
     /*position:absolute;*/
    /* left:20px;*/
-    transform: rotateY(50deg);
+    /*transform: rotateY(50deg);
     color:white;
     font-size: 70px;
     margin:20px;
     padding-left:20px;
 
+}*/
+
+/*#parent{
+    height:400px;
+    width:400px;
+    background-color: rgba(127, 255, 212, 0.451);
+    position: relative;
 }
+
+#child{
+    height:200px;
+    width:200px;
+    background-color: antiquewhite;
+    position: absolute;
+    left:50%
+}*/
+
+/*.page{
+    height:100%;
+    width:100;
+    background-color: rosybrown;
+
+}*/
+
+/*.box{
+    height:200px;
+    width:200px;
+    background-color: lightcoral;
+    border: 2px solid white;
+
+}*/
+
+/*#hero{
+    background-color: royalblue;
+}*/
+
+/*.box:nth-child(4){
+    background-color: blueviolet
+}*/
+
+/*#parent{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    padding:0.1px;
+
+}*/
+
+/*#child{
+    height:200px;
+    width:200px;
+    background-color: rosybrown;
+    margin-top:20px;
+}*/
+
+
+
+
+
+/* Display flex */
+#parent{
+    height:100%;
+    width:100%;
+    background-color: black;
+    display: flex;
+    /*align-items:flex-start; */
+    /*justify-content:center;*/
+    justify-content: space-between;
+}
+
+.child1{
+    height:100px;
+    width:100px;
+    background-color: coral;
+}
+
+.child2{
+    height:100px;
+    width:100px;
+    background-color: rgb(255, 235, 80);
+}
+
+.child3{
+    height:100px;
+    width:100px;
+    background-color: rgb(191, 255, 80);
+}
+
+
+
+
 
 
 
