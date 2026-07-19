@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height:100%;
+    width:100%;
+    background-color:black;
+}
+
+#nav{
+    height:80px;
+    width:100%;
+    background-color: crimson;
+    font-size:30px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.part1{
+    height:100%;
+    width:14%;
+    background-color: royalblue;
+}
+.part2{
+    height:100%;
+    width:40%;
+    background-color: rgb(225, 225, 65);
+}
+.part3{
+    height:100%;
+    width:30%;
+    background-color: rgb(225, 65, 118);
+}
